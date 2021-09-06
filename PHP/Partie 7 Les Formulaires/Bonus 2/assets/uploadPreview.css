@@ -1,0 +1,28 @@
+.header {
+	background-color: lightgray;
+	color: black;
+	padding: 2rem;
+}
+
+.title {
+	font-size: 3rem;
+}
+
+.module > p{
+	padding-top : 1rem;
+	padding-left : 1rem;
+}
+
+
+#imgPreview {
+	width: 200px; 
+	max-height: 200px;
+	display: block;
+}
+
+.module {
+	margin-top: 2rem;
+	border-radius: 10px;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+
+}

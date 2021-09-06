@@ -1,0 +1,56 @@
+[
+	{
+		"ads_id" : 1,
+		"ads_title" : "Tesla Modele S",
+		"ads_price" : 16000,
+		"ads_desc" : "Bonjour, je vends ma Tesla Modele S presque pas utilisée, état impeccable, batterie ok. Elle va trop vite j'ai peur",
+		"ads_email" : "paulfroussard@gmail.com",
+		"name_categories" : "Voiture",
+		"images_src" : "assets/img/tesla.jpg"
+	},
+	{
+		"ads_id" : 2,
+		"ads_title" : "Macbook Pro M1",
+		"ads_price" : 1600,
+		"ads_desc" : "Bonjour, vends Macbook Pro 2021 M1 512Go SSD, comme neuf, presque tombé d'un camion, ok il est volé bisous",
+		"ads_email" : "jenesuispasunvoleur@gmail.com",
+		"name_categories" : "Ordinateur",
+		"images_src" : "assets/img/macbook.png"
+	},
+	{
+		"ads_id" : 3,
+		"ads_title" : "AirPods Max",
+		"ads_price" : 600,
+		"ads_desc" : "Bonjour, je vends mes AirPods Max que j'ai reçu pour mon anniversaire parce que j'aime pas Apple, je suis pas un mouton ni un pigeon j'aime que Android ouais c'est trop bien donc non Apple",
+		"ads_email" : "fanandroid@gmail.com",
+		"name_categories" : "Audio",
+		"images_src" : "assets/img/airpods.png"
+	},
+	{
+		"ads_id" : 4,
+		"ads_title" : "Yeezy Boost 350 V2",
+		"ads_price" : 410,
+		"ads_desc" : "Bonjour, je vends mes Yeezy. Depuis que Kanye West fait plus de musique et a voulu se présenter aux présidentielles 2020 je n'assume plus de les porter",
+		"ads_email" : "kanyewestnomore@gmail.com",
+		"name_categories" : "Mode",
+		"images_src" : "assets/img/Yeesy.png"
+	},
+	{
+		"ads_id" : 5,
+		"ads_title" : "Labrador à adopter",
+		"ads_price" : 800,
+		"ads_desc" : "Bonjour, mon chien vient d'avoir une portée de 8 chiots. Je vous propose donc d'adopter un de ses sublimes Labradors qui ne mangera pas votre mobilier, ne vous causera aucune dette financière et je l'espère vous rapportera de l'argent après l'avoir fait se reproduire. Non sérieux s'abstenir",
+		"ads_email" : "labradorlover@gmail.com",
+		"name_categories" : "Animaux",
+		"images_src" : "assets/img/chiot.jpg"
+	},
+	{
+		"ads_id" : 6,
+		"ads_title" : "Balais de Curling",
+		"ads_price" : 0,
+		"ads_desc" : "Bonjour, je donne mon balai de curling après que mes copains se soient moqués de moi pour ce sport incroyablement physique et reconnu par le monde entier. C'est un aubaine parce que normalement ça coûte cher !",
+		"ads_email" : "curlingforeva@gmail.com",
+		"name_categories" : "Loisirs",
+		"images_src" : "assets/img/balais.jpg"
+	}
+]

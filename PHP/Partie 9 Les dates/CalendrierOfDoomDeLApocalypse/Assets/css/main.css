@@ -1,0 +1,63 @@
+.td5Weeks {
+    height: 13vh;
+    width: calc(100vw / 7);
+}
+
+.td6Weeks {
+    height: 11vh;
+    width: calc(100vw / 7);
+}
+
+caption {
+    background-color: #736c6c;
+    width: calc(100vw / 7);
+    text-align: center;
+    border-bottom-right-radius: 13px;
+    color: whitesmoke;
+}
+
+table {
+    border-bottom: #736c6c solid 5px !important;
+}
+
+th {
+    border-bottom: #736c6c solid 2px !important;
+}
+
+.tdOffMonth {
+    background-color: #dbdbdbed !important;
+    color: #8f8a8a;
+}
+
+.freeDays {
+    background-color: rgb(167, 222, 135) !important;
+}
+
+td {
+    transition: all 250ms linear;
+}
+
+td:hover {
+    transform: scale(1.05) !important;
+    background-color: #736c6c !important;
+    color: white !important;
+    transition: all 250ms linear;
+}
+
+.iconColor {
+    color: #736c6c;
+}
+
+.arrows:hover {
+    transform: scale(1.2);
+    transition: all 250ms linear;
+}
+
+.arrows {
+    transition: all 250ms linear;
+}
+
+.btn-color-custom {
+    background-color: #736c6c;
+    color: white;
+}
