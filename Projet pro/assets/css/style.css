@@ -1,0 +1,368 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+}
+
+a {
+    text-decoration:none; 
+    color : black;
+    font-family: 'Poppins', sans-serif!important;
+    font-weight: 800!important;
+}
+
+a:hover {
+    color: rgb(113, 90, 140);
+}
+
+.tagline {
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    
+}
+
+li {
+    padding-bottom: 0.7rem;
+}
+
+.quartierPres {
+    margin-left : 3rem;
+    margin-right : 3rem;
+}
+
+h1 {
+    font-size: 2.7rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif!important;
+    font-weight: 800!important;
+    padding-top: 6rem;
+    padding-bottom : 2rem;
+}
+
+h2 {
+    font-size: 2.7rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif!important;
+    font-weight: 800!important;
+    padding-top: 6rem;
+    padding-bottom : 2rem;
+}
+
+.navbar {
+    background-color: white !important;
+}
+
+.nav-link {
+    color: black !important;
+    font-weight: 800;
+}
+
+.dropdown-item {
+    color: black;
+}
+
+.btnEng {
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif!important;
+}
+
+.btnEng:hover {
+    background-color: rgb(113, 90, 140);
+    border-color: rgb(113, 90, 140);
+}
+
+.carousel {
+    -webkit-box-shadow: 0 17px 17px 0 rgba(0, 0, 0, 0.15), 0 27px 55px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 17px 17px 0 rgba(0, 0, 0, 0.15), 0 27px 55px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+
+.aptImg {
+    width: 100%;
+    height: auto;
+    margin : 0!important;
+    border-top-right-radius: 20px 20px;
+    border-top-left-radius: 20px 20px;
+}
+
+.appartmentListing {
+    -webkit-box-shadow: 20px -20px 60px #d9d9d9,
+    -20px 20px 60px #ffffff;
+    box-shadow: 20px -20px 60px #d9d9d9,
+    -20px 20px 60px #ffffff;
+    border-radius: 15px;
+    background: linear-gradient(315deg, #ffffff, #e6e6e6);
+    padding-left : 0!important;
+    padding-right : 0!important;
+    margin-bottom : 4rem;
+}
+
+.applicationTitle {
+    font-family: 'Poppins', sans-serif!important;
+    font-weight: 800;
+    color: rgb(113, 90, 140);
+}
+
+.aptTitle {
+    font-family: 'Poppins', sans-serif!important;
+    font-weight: 800;
+}
+
+.aptDescCat {
+    font-family: 'Poppins', sans-serif!important;
+    font-weight: 800;
+}
+
+.loyer {
+    font-family: 'Poppins', sans-serif!important;
+    font-weight: 800;
+    color: rgb(113, 90, 140); 
+    font-size: 1.2rem;
+}
+
+.infoBtn {
+    font-size: 4rem;
+    color: rgb(113, 90, 140);
+}
+
+.infos {
+    font-family: 'Poppins', sans-serif!important;
+    font-weight: 800;
+}
+
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.appartementTitles {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.rounded {
+    border-radius: 15px !important;
+}
+
+.btn-outline-success {
+    border-color: rgb(113, 90, 140);
+    color: rgb(113, 90, 140);
+    -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-toggler {
+    border-color: rgb(113, 90, 140)!important;
+    background-color: white!important;
+    color : black;
+    -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(113, 90, 140);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: rgb(84, 84, 84);
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px rgb(84, 84, 84);
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+    -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.module_border {
+    margin-top: 2rem;
+    margin-bottom : 2rem;
+	border-radius: 10px;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.uploadBtn {
+    background-color: rgb(113, 90, 140);
+    border-color: rgb(113, 90, 140);
+    -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+}
+
+#imgPreview {
+	width: 200px; 
+	max-height: 200px;
+	display: block;
+}
+
+.fa-phone {
+    font-size: 3rem;
+}
+
+.contactForm {
+    padding: 1rem!important;
+}
+
+.btn-primary {
+    background-color: white;
+    border-color: rgb(113, 90, 140);
+    -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+    color : rgb(113, 90, 140);
+    font-family: 'Poppins', sans-serif!important;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15)!important;
+    font-weight: 800!important;
+}
+
+.btn-primary:hover {
+    background-color: rgb(113, 90, 140);
+    border-color: rgb(113, 90, 140);
+    color : white;
+    -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+    font-family: 'Poppins', sans-serif!important;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15)!important;
+    font-weight: 800!important;
+}
+
+.aptBtn {
+    margin-bottom: 7rem;
+}
+
+.aptForm {
+    padding: 1rem!important;
+    margin-bottom: 7rem;
+}
+
+.appartmentPhotos:hover {
+        opacity: 0.8;
+        transition: opacity 0.9s;
+}
+
+.appartmentPhotos {
+    -webkit-box-shadow: 0 17px 17px 0 rgba(0, 0, 0, 0.15), 0 27px 55px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 17px 17px 0 rgba(0, 0, 0, 0.15), 0 27px 55px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+table {
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+
+.about {
+    text-align: justify!important;
+    text-justify: inter-word!important;
+    padding-bottom: 3rem!important;
+}
+
+.neumorphismBorder {
+    border-radius: 20px;
+background: #ffffff;
+box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+}
+
+.mainContent {
+    background-color: rgb(224, 220, 232);
+}
+
+.neumorphismBorderDashboard {
+    background: rgba(255, 255, 255, 0.755);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+.taglineDashboard {
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    font-weight: 800!important;
+}
+
+.bi-telephone-fill {
+    font-size: 3rem;
+}
+
+.dashBoardmain {
+    padding : 2rem!important;
+}
+
+.neumorphismBordercards {
+    background: rgba(255, 255, 255, 0.755);
+    box-shadow: 0 4px 16px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
